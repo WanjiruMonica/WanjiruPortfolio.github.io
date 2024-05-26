@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Monica Wanjiru Portfolio - Articles</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">MONICA</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects</a></li>
+							<li class="active"><a href="generic.html">Articles</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/monica-w-chuchu/" target="_blank" class="icon brands alt fab fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+								
+									<h1>GEOTHERMAL EXPLORATION THROUGH REMOTE SENSING<br />
+									</h1>
+									<p>Geothermal exploration can be done through various techniques including remote sensing. A geothermal potential area has thermal anomalies as compared to its surrounding areas. By creating a Land Surface temperature map, you are able to identify potential areas with surface temperature anomalies that could indicate a potential geothermal zone.<br />
+									Other surface manifestations of geothermal areas include fumaroles, hotsprings, altered ground as well as mudpools which can be identified through physical visits to the area. Remote sensing is therefore useful for initial identification of potential geothermal sites before a reconnaissance is done.<br />
+									This project was done entirely through QGIS while the satellite image was obtained from USGS Earth Explorer.</p>
+								</header>
+								<div class="image main"><img src="images/lst.jpg" alt="" /></div>
+                               
+                                <section class="post">
+									<header class="major">
+									
+										<h1>HOW TO MASK CLOUD COVER ON LANDSAT 8 IMAGES USING PYTHON<br />
+										</h1>
+										<p>Remote sensing provides a cost-free and less resource-intensive method to acquire spatial data for various purposes. However, it’s not without its challenges. One major challenge of using satellite imagery is cloud cover. Cloud cover has the potential to drastically reduce the quality of spatial data analysis in turn giving inaccurate information.<br />
+											One way to address cloud cover is to filter it out. This means that a certain threshold for percentage cloud cover is set and if an image does not meet the threshold, the satellite image is not used for analysis. Alternatively, cloud cover can also be removed through cloud masking. Cloud masking is the process by which individual pixels considered to be clouds are removed from the image by equalizing the pixel value of cloud to zero. This allows you to retain the entire image while eliminating cloud interference.<br />
+											This tutorial demonstrates how to perform cloud masking on Landsat 8 images using the Python programming language. <br />
+										1. Defining a function to mask clouds as well as applying scaling factors.
+										<div class="image main"><img src="images/define.png" alt="" /></div> <br />
+									    2. Acquiring Landsat images from Google Earth Engine and applying the function
+										<div class="image main"><img src="images/apply.png" alt="" /></div><br />
+									    Bonus tip : As a result of applying the scaling factor on the thermal bands (as shown in step 1), the temperature values have now been converted to Kelvin. From there, you only need to subtract 273.15 from the values to get the temperatures in degrees Celsius. This is particularly useful when you need surface temperature in Kelvin or degrees Celsius.</p>
+									</header>
+
+								
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
